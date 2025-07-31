@@ -19,7 +19,7 @@ To evaluate the effectiveness of different clustering techniques in identifying 
 * **Gene Expression Cancer RNA-Seq dataset**
 * **Arcene dataset** (UCI Machine Learning Repository)
 
-Preprocessing steps include normalization, imputation of missing values, and filtering of low-variance genes.
+Preprocessing steps include standardization, imputation of missing values, and filtering of low-variance genes.
 
 ---
 
@@ -27,7 +27,7 @@ Preprocessing steps include normalization, imputation of missing values, and fil
 
 ### 1. **Preprocessing**
 
-* Normalization of expression values
+* Standardization of expression values
 * Log transformation
 * Imputation via `SimpleImputer`
 * Low-variance gene filtering
